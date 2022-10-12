@@ -1,0 +1,32 @@
+/* estilos lineas y bloques*/
+
+h1, h2 {
+    display: inline-block; /*use lineas*/
+    background-color: cyan;
+    width: 200px;/*dando ancho*/
+}
+label, input {
+    display: block; /* en bloque, en linea*/
+
+}
+
+p {
+    display: inline-block; /*en bloques*/
+    width: 160px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightcyan;
+    margin: 10px;
+    vertical-align: top; /*alinea los elemento al top*/
+}
+
+/*acceso*/
+a {
+    /*display: block; sin esta opcion, todo queda en una linea*/
+    display: inline-block;
+    text-decoration: none; 
+    color: darkslategrey;
+    background-color: blanchedalmond;
+    padding: 10px; /*padding en todo lados*/
+    margin: 10px; /*margen en todo lados*/
+}
